@@ -1,7 +1,11 @@
+import { gql, useQuery } from "@apollo/client"
+import { useEffect } from "react"
+import { Event } from './pages/Event'
+
 function App() {
 
   return (
-    <h1 className="text-4xl font-bold">Hello World</h1>
+    <Event />
   )
 }
 
